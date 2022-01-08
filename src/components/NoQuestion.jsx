@@ -1,7 +1,7 @@
 import React from "react";
 import styled from "styled-components";
 
-const NoQuestion = () => {
+const NoQuestion = (props) => {
   return (
     <NoQuest>
       <Container>
@@ -11,7 +11,7 @@ const NoQuestion = () => {
             <p>Try to answer the following code related questions </p>
             <p>Keep in mind incorrect answer will penalize your score</p>
           </TextContainer>
-          <button>Start Now &gt;</button>
+          <button onClick={props.handleClick}>Start Now &gt;</button>
         </div>
       </Container>
     </NoQuest>
@@ -25,7 +25,7 @@ const NoQuest = styled.div`
 `;
 
 const Container = styled.div`
-  height: calc(100vh - 100px);
+  height: calc(100vh - 50px);
   padding: 0 1rem;
   display: flex;
   align-items: center;
@@ -43,6 +43,7 @@ const Container = styled.div`
     color: #140e2f;
   }
   @media (min-width: 768px) {
+    height: calc(100vh - 70px);
     padding: 0 3rem;
   }
   button {

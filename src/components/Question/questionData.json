@@ -1,0 +1,72 @@
+[
+  {
+    "question": "In HTML, you can embed SVG elements directly into an HTML page",
+    "opt1": "True",
+    "opt2": "False",
+    "ans": "True",
+    "id": 1
+  },
+  {
+    "question": "There is no concept of pointers in Java",
+    "opt1": "True",
+    "opt2": "False",
+    "ans": "True",
+    "id": 2
+  },
+  {
+    "question": "C++ is purely object oriented programming language",
+    "opt1": "True",
+    "opt2": "False",
+    "ans": "False",
+    "id": 3
+  },
+  {
+    "question": "You can chain comparison in python",
+    "opt1": "True",
+    "opt2": "False",
+    "ans": "True",
+    "id": 4
+  },
+  {
+    "question": "The name python is about snakes",
+    "opt1": "True",
+    "opt2": "False",
+    "ans": "False",
+    "id": 5
+  },
+  {
+    "question": "Java was called Oak at the beginning",
+    "opt1": "True",
+    "opt2": "False",
+    "ans": "True",
+    "id": 6
+  },
+  {
+    "question": "The first ever Linux kernel just occupied  65 MB",
+    "opt1": "True",
+    "opt2": "False",
+    "ans": "False",
+    "id": 7
+  },
+  {
+    "question": "Many programming languages are influenced by c++, some of which include C#, Java and even newer versions of C",
+    "opt1": "True",
+    "opt2": "False",
+    "ans": "True",
+    "id": 8
+  },
+  {
+    "question": "In python you cannot return multiple values in a function",
+    "opt1": "True",
+    "opt2": "False",
+    "ans": "False",
+    "id": 9
+  },
+  {
+    "question": "All of the 500 fastest supercomputers run Linux",
+    "opt1": "True",
+    "opt2": "False",
+    "ans": "True",
+    "id": 10
+  }
+]

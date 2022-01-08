@@ -1,11 +1,11 @@
 import React from "react";
 import styled from "styled-components";
 
-const Navbar = () => {
+const Navbar = (props) => {
   return (
     <Nav>
       <h1>Quizzer</h1>
-      <button>Start Now</button>
+      {props.startQuiz ? <p>🏆 : </p> : <p>⭐ : </p>}
     </Nav>
   );
 };
@@ -24,14 +24,11 @@ const Nav = styled.nav`
     font-weight: 700;
     font-size: 35px;
   }
-  button {
+  p {
     margin: 8px 0;
     padding: 0.5px 10px;
     font-size: 17px;
-    border: solid 2px white;
-    border-radius: 50px;
     background: transparent;
-    font-family: caveat;
     color: white;
   }
 
@@ -41,11 +38,10 @@ const Nav = styled.nav`
     h1 {
       font-size: 50px;
     }
-    button {
+    p {
       margin: 15px 0;
       padding: 2.5px 15px;
       font-size: 25px;
-      border: solid 2px white;
     }
   }
 `;
